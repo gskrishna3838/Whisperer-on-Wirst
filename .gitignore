@@ -18,7 +18,6 @@
 .DS_Store
 Thumbs.db
 
-# Секреты (никогда не коммитьте!)
 src/secrets.h
 *.local
 .env
