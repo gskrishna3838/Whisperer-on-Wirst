@@ -35,7 +35,7 @@ We are now building the **AI Bridge**. The goal is to connect the animated M5Sti
 2.  **Prepare Your AI Server:**
     *   Install [Ollama](https://ollama.com/) on your computer.
     *   Pull a model: `ollama pull llama3.2`
-    *   Ensure Ollama's API is running (default: `http://localhost:11434`).
+    *   Ensure Ollama's API is running (default: `http://IP:11434, not localhost (sudo systemctl edit ollama: Environment="OLLAMA_HOST=0.0.0.0:11434"`).
 
 3.  **Configure the Connection:**
     *   In the project's `src/secrets.h` file (create from `secrets.example.h`), enter your WiFi SSID, password, and your computer's local IP address.
@@ -71,8 +71,8 @@ The project is structured for clarity and growth:
 
 *   **✅ Phase 1: Foundation** - Establish a stable, compiled development environment with basic graphics. **(COMPLETE)**
 *   **🟡 Phase 2: Emotional Core** - Implement the animated, sensor-reactive personality display. **(COMPLETE)**
-*   **🔵 Phase 3: AI Bridge** - Develop WiFi connectivity and a simple text-based interface with the local Ollama instance. **(IN PROGRESS)**
-*   **⚪ Phase 4: Voice Interface** - Integrate voice-to-text and text-to-speech for natural interaction.
+*   **🔵 Phase 3: AI Bridge** - Develop WiFi connectivity and a simple text-based interface with the local Ollama instance. **(COMPLETE)**
+*   **⚪ Phase 4: Voice Interface** - Integrate voice-to-text and text-to-speech for natural interaction.**(IN PROGRESS)**
 *   **⚪ Phase 5: Polishing & Expansion** - Refine UI/UX, add more emotions/animations, and explore multimodal inputs.
 
 ## 🙏 Acknowledgments
